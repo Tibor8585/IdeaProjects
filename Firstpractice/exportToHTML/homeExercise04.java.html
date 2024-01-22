@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>homeExercise04.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+.s4 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+homeExercise04.java</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">util</span><span class="s2">.</span><span class="s1">Random</span><span class="s2">;</span>
+<span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">util</span><span class="s2">.</span><span class="s1">Scanner</span><span class="s2">;</span>
+
+<span class="s0">public class </span><span class="s1">homeExercise04 </span><span class="s2">{</span>
+    <span class="s0">public static void </span><span class="s1">main</span><span class="s2">(</span><span class="s1">String</span><span class="s2">[] </span><span class="s1">args</span><span class="s2">) {</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Adj meg egy számot, ha az értéke 0-3 közé esik a válaszod: fej. Haz általad mondot szám 4-7 között van, a válaszod: írás&quot;</span><span class="s2">);</span>
+        <span class="s1">Scanner numberChoice </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Scanner</span><span class="s2">(</span><span class="s1">System</span><span class="s2">.</span><span class="s1">in</span><span class="s2">);</span>
+        <span class="s1">String choice </span><span class="s2">= </span><span class="s1">numberChoice</span><span class="s2">.</span><span class="s1">next</span><span class="s2">();</span>
+        <span class="s0">int </span><span class="s1">coin </span><span class="s2">= </span><span class="s1">Integer</span><span class="s2">.</span><span class="s1">parseInt</span><span class="s2">(</span><span class="s1">choice</span><span class="s2">);</span>
+        <span class="s0">if </span><span class="s2">(</span><span class="s1">coin </span><span class="s2">&lt;= </span><span class="s4">3</span><span class="s2">){</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;A választásod fej, mivel az általad mondot szám: &quot; </span><span class="s2">+ </span><span class="s1">coin</span><span class="s2">);</span>
+        <span class="s2">}</span><span class="s0">else </span><span class="s2">{</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;A választásod írás, mivel az általad mondot szám: &quot; </span><span class="s2">+ </span><span class="s1">coin</span><span class="s2">);</span>
+        <span class="s2">}</span>
+        <span class="s1">Random random </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Random</span><span class="s2">();</span>
+        <span class="s0">int </span><span class="s1">randomNumber </span><span class="s2">= </span><span class="s1">random</span><span class="s2">.</span><span class="s1">nextInt</span><span class="s2">(</span><span class="s4">8</span><span class="s2">);</span>
+        <span class="s0">if </span><span class="s2">(</span><span class="s1">randomNumber </span><span class="s2">&lt;= </span><span class="s4">3 </span><span class="s2">&amp;&amp; </span><span class="s1">coin </span><span class="s2">&lt;= </span><span class="s4">3</span><span class="s2">) {</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Az eredmény fej, mivel a kapott szám: &quot; </span><span class="s2">+ </span><span class="s1">randomNumber</span><span class="s2">);</span>
+        <span class="s2">} </span><span class="s0">else </span><span class="s2">{</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Az eredmény írás, mivel a kapott szám: &quot; </span><span class="s2">+ </span><span class="s1">randomNumber</span><span class="s2">);</span>
+        <span class="s2">}</span>
+    <span class="s2">}</span>
+<span class="s2">}</span>
+</pre>
+</body>
+</html>

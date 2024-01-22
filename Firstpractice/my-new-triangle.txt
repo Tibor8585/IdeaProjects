@@ -1,0 +1,8 @@
+The following triange is VALID. Side A: 5, Side B: 6, Side C: 7
+The following triange is VALID. Side A: 6, Side B: 7, Side C: 5
+The following triange is VALID. Side A: 7, Side B: 6, Side C: 5
+The following triange is INVALID. Side A: 1, Side B: 6, Side C: 7
+The following triange is INVALID. Side A: 6, Side B: 1, Side C: 7
+The following triange is INVALID. Side A: 7, Side B: 6, Side C: 1
+The following triange is VALID. Side A: 6, Side B: 6, Side C: 6
+The following triange is INVALID. Side A: -7, Side B: -6, Side C: -5

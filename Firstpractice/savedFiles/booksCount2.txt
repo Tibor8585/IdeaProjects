@@ -1,0 +1,2 @@
+Az összes könyv száma: 9
+Count of books with different titles: 7
